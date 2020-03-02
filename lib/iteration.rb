@@ -63,4 +63,5 @@ def total_even_pairs(src)
     puts even
     row_index += 1
   end
+  sum
 end
