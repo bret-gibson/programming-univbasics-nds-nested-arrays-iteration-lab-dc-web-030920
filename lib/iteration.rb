@@ -59,7 +59,7 @@ def total_even_pairs(src)
       element_index += 1
     end
     if even
-      puts src[0]
+      puts src[row_index][0]
     end
     row_index += 1
   end
