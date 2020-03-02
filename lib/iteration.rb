@@ -56,7 +56,6 @@ def total_even_pairs(src)
       else
         even = false
       end
-
       element_index += 1
     end
     if even
