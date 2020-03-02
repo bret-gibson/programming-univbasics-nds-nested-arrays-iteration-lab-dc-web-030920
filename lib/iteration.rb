@@ -56,6 +56,7 @@ def total_even_pairs(src)
       end
       element_index += 1
     end
+    puts areEven
     row_index += 1
   end
   sum
