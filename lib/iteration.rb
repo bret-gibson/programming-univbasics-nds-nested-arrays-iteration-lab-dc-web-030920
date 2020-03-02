@@ -54,6 +54,7 @@ def total_even_pairs(src)
       puts "#{src[row_index][element_index]} IS EVEN!!!!!"
       element_index += 1
     end
+  end
     row_index += 1
   end
   sum
