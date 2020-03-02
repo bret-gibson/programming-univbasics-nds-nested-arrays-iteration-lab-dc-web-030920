@@ -51,11 +51,10 @@ def total_even_pairs(src)
     element_index = 0
     while element_index < src[row_index].count do
       if src[row_index][element_index] % 2 == 0
-      puts "#{src[row_index][element_index]} IS EVEN!!!!!"
-    end
+        puts "#{src[row_index][element_index]} IS EVEN!!!!!"
+      end
       element_index += 1
     end
-  end
     row_index += 1
   end
   sum
